@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "name": "Torpedão",
+        "adress": "Estancia Velha, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "14",
+        "max_price": "28"
+    },
+    {
+        "id": "1",
+        "name": "Rapachi Romani",
+        "adress": "Centro, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "21",
+        "max_price": "34"
+    },
+    {
+        "id": "2",
+        "name": "Mil Xis",
+        "adress": "Guajuviras, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "16",
+        "max_price": "29"
+    }
+]
