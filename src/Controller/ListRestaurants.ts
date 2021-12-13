@@ -1,4 +1,4 @@
-const data = require("../../Data/db.json");
+const data = require("../../data/db.json");
 
 export function RestaurantById(id: string): object {
     return data.find((rest) => {
