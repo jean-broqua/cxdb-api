@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SearchRestaurant = exports.ListAll = void 0;
-const database = require("../data/db.json");
+const database = require("../../data/db.json");
 function ListAll() {
     return database;
 }
