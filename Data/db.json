@@ -2,7 +2,7 @@
     {
         "id": "0",
         "name": "Torpedão",
-        "adress": "Estancia Velha, Canoas",
+        "address": "Estancia Velha, Canoas",
         "contact": "(99) 99999-9999",
         "min_price": "14",
         "max_price": "28"
@@ -10,7 +10,7 @@
     {
         "id": "1",
         "name": "Rapachi Romani",
-        "adress": "Centro, Canoas",
+        "address": "Centro, Canoas",
         "contact": "(99) 99999-9999",
         "min_price": "21",
         "max_price": "34"
@@ -18,9 +18,33 @@
     {
         "id": "2",
         "name": "Mil Xis",
-        "adress": "Guajuviras, Canoas",
+        "address": "Guajuviras, Canoas",
         "contact": "(99) 99999-9999",
         "min_price": "16",
         "max_price": "29"
+    },
+    {
+        "id": "3",
+        "name": "Cia do Xis",
+        "address": "Centro, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "21",
+        "max_price": "35"
+    },
+    {
+        "id": "4",
+        "name": "Hyper Xis",
+        "address": "Guajuviras, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "17",
+        "max_price": "31"
+    },
+    {
+        "id": "5",
+        "name": "Xis Barcelos",
+        "address": "Guajuviras, Canoas",
+        "contact": "(99) 99999-9999",
+        "min_price": "19",
+        "max_price": "33"
     }
 ]
