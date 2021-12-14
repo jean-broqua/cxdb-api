@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/app.js",
     "dev": "nodemon --config nodemon.json src/app.ts",
-    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/app.ts"
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/app.ts",
+    "build": "tsc --build"
   },
   "author": "",
   "license": "ISC",
