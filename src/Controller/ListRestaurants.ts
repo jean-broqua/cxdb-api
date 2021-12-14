@@ -1,4 +1,4 @@
-const database = require("../../data/db.json");
+const database = require("../data/db.json");
 
 interface dbData {
     id: string,
