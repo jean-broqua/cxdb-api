@@ -1,6 +1,6 @@
-import server from "./server";
-const port = process.env.PORT || 8000
+import server from './server'
+const port = process.env.PORT || 8080
 
 server.listen(port, () => {
-    console.log("Running on port: " + port);
-});
+  console.log('Running on port: ' + port)
+})

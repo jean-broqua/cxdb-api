@@ -1,15 +1,23 @@
-import express, { query } from "express";
-import SearchRestaurant from "./Controller/ListRestaurants"
+import express from 'express'
+import MongooseConnection from './mongoose'
+const server = express()
 
-const server = express();
+MongooseConnection()
 
-server.get("/", (req, res) => {
-    return res.send("hello");
-});
+server.use(express.json())
 
-// Filter test
-server.get("/api/search", (req, res) => {
-    return res.json(SearchRestaurant(req.query));
-});
+server.get('/', (req, res) => {
+  return res.send('hello')
+})
 
-export default server;
+// to-do: return and array with all the restaurants in the db
+server.get('/list', (req, res) => {
+  res.send()
+})
+
+// to-do: add a new review to the db
+server.post('/restaurant', (req, res) => {
+  res.send()
+})
+
+export default server

@@ -4,14 +4,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const ListRestaurants_1 = __importDefault(require("./Controller/ListRestaurants"));
+const mongoose_1 = __importDefault(require("./mongoose"));
 const server = (0, express_1.default)();
-server.get("/", (req, res) => {
-    return res.send("hello");
+(0, mongoose_1.default)();
+server.use(express_1.default.json());
+server.get('/', (req, res) => {
+    return res.send('hello');
 });
-// Filter test
-server.get("/api/search", (req, res) => {
-    return res.json((0, ListRestaurants_1.default)(req.query));
+server.get('/list', (req, res) => {
+    console.log(req.body);
+    res.send(req.body);
 });
 exports.default = server;
 //# sourceMappingURL=server.js.map
